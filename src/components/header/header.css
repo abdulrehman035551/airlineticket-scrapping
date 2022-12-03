@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar{
+    width: 100%;
+  
+    height: 79px;
+   
+    background-color: #121212;
+/* background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */
+    }
+#Logo{
+    width: 222px;
+    position: absolute;
+    left: 17px;
+    top: -19px;
+    
+}
+#login-button
+{
+    font-size: 20px;
+    width: 68px;
+    background-color: #d9e4f5;
+    font-family: inherit;
+    cursor: pointer;
+    position: absolute;
+    /* left: 0px; */
+    right: 19px;
+    top: 28px;
+    color: white;
+    background-color: #121212;
+    border: solid white 2px;
+    border-radius: 84px;
+    width: 98px;
+}
+/* #login-button:hover
+{
+    font-size: 25px;
+    width: 68px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    right: 19px;
+    top: 28px;
+} */
+#book-button{
+    
+    font-size: 15px;
+        width: 68px;
+        background-color: #d9e4f5;
+        font-family: inherit;
+        cursor: pointer;
+        position: absolute;
+        /* left: 0px; */
+        right: 351px;
+        top: 28px;
+        color: white;
+        background-color: #121212;
+        /* border: solid white 2px; */
+        border-radius: 84px;
+        width: 133px;
+        font-size: 19px;
+        border: solid;
+        cursor: pointer;
+    
+    }
+#contact-us{
+    font-size: 15px;
+        width: 68px;
+        background-color: #d9e4f5;
+        font-family: inherit;
+        cursor: pointer;
+        position: absolute;
+        /* left: 0px; */
+        right: 215px;
+        top: 28px;
+        color: white;
+        background-color: #121212;
+        /* border: solid white 2px; */
+        border-radius: 84px;
+        width: 133px;
+        font-size: 19px;
+        border: solid;
+        cursor: pointer;
+    
+}
+#guide{
+   
+    font-size: 15px;
+    width: 68px;
+    background-color: #d9e4f5;
+    font-family: inherit;
+    cursor: pointer;
+    position: absolute;
+    /* left: 0px; */
+    right: 77px;
+    top: 28px;
+    color: white;
+    background-color: #121212;
+    /* border: solid white 2px; */
+    border-radius: 84px;
+    width: 133px;
+    font-size: 19px;
+    border: solid;
+    cursor: pointer;
+
+}
+.btn{
+    font-size: 19px;
+    border: solid;
+}
+#home{
+    font-size: 15px;
+    width: 68px;
+    background-color: #d9e4f5;
+    font-family: inherit;
+    cursor: pointer;
+    position: absolute;
+    /* left: 0px; */
+    right: 490px;
+    top: 28px;
+    color: white;
+    background-color: #121212;
+    /* border: solid white 2px; */
+    border-radius: 84px;
+    width: 133px;
+    font-size: 19px;
+    border: solid;
+    height: 48px;
+}
+bar{
+    height: 200px;
+}

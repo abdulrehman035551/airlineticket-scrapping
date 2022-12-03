@@ -1,0 +1,30 @@
+#middle
+{
+    /* border: solid red 3px; */
+    width: 100%;
+     height: 1100px;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+
+}
+h4{
+    padding: 4px;
+}
+#middle-section{
+    width: 941px;
+  
+    margin: auto;
+
+}
+#middle-images{
+width: 100%;
+height: 200px;
+/* border: solid red 1px; */
+display: flex;
+
+
+
+}
+#middle-images img{
+    width: 250px;
+    position: relative;
+}

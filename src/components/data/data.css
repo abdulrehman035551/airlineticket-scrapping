@@ -1,0 +1,109 @@
+body{
+
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+/* background-image: url('bg.jpeg'); */
+
+}
+#container{
+  width: 609px;
+  height: 159px;
+  border: black;
+  margin-left: 429px;
+  border-radius: 9px;
+  margin-top: 57px;
+  /* position: absolute; */
+  /* top: 62px; */
+  /* position: relative; */
+  /* bottom: 2533px; */
+  border: solid white;
+  margin-top: 86px;
+  padding: 2px;
+  }
+  #h6{
+    font-family: system-ui;
+    width: 300px;
+    height: 42px;
+    text-align: right;
+    border: solid 1px;
+    margin-left: 9px;
+    /* margin-bottom: 36px; */
+    position: relative;
+    /* bottom: 247px; */
+    border-radius: 5px;
+    background-color: #0b0b0b;
+    font-weight: 600;
+    opacity: 0.9;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 144px;
+    color: white;
+  }
+  #price-box{
+    width: 83px;
+    height: 72px;
+    border: solid 7px white;
+    top: 29px;
+    position: absolute;
+    left: 461px;
+    color: #010911;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bold; */
+    font-size: 17px;
+    border-radius: 9px;
+    width: 41px;
+    top: 46px;
+    position: relative;
+    left: 61px;
+    top: 29px;
+  }
+
+  #book-now{
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bold; */
+    font-size: 15px;
+    background-color: #326ec6;
+    width: 112px;
+    height: 34px;
+    border: solid 1px;
+    top: 29px;
+    position: absolute;
+    left: 361px;
+    color: #343a40;
+    border-radius: 9px;
+    COLOR: white;
+    /* top: 313px; */
+    position: relative;
+    
+}
+h2{
+  border-bottom: 1px solid #CCC;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 531px;
+  border: solid;
+  border: solid;
+  border: solid 3px;
+  border-radius: 10px;
+  height: 62px;
+  position: absolute;
+  top: 92px;
+}
+#bc-img{
+  opacity: 1;
+}
+#table{
+  width: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    display: table;
+}

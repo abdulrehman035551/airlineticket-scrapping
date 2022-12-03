@@ -1,0 +1,38 @@
+let mongoose = require('mongoose');
+
+let userSchema =new mongoose.Schema(
+    {
+        name: {
+            type: String,
+            required: true
+        },
+        email: {
+            type: String,
+            required: true
+        },
+        dateOfBirth: {
+            type: String,
+            required: true
+        },
+        cnic: {
+            type: Number,
+            // required: true
+        },
+        passportNumber: {
+            type: Number,
+
+        },
+        phoneNumber: {
+            type: Number,
+            required: true
+        },
+        searchId: {
+            type: Number,
+        },
+
+    }
+)
+
+const userModel = mongoose.model('user',userSchema);
+
+module.exports = userModel;

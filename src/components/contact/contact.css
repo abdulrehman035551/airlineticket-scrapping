@@ -1,0 +1,45 @@
+box1{
+    width: 200px;
+    position: absolute;
+    height: 200px;
+    left: 501px;
+    top: 12px;
+}
+box2{
+    width: 200px;
+    position: absolute;
+    height: 200px;
+    left: 56px;
+    top: 12px;
+}
+#kk-img{
+    height: -webkit-fill-available;
+
+    width: 200px;
+}
+#main-box{
+       /* width: 72vw; */
+       height: 70vh;
+       /* border: solid red 3px; */
+       position: absolute;
+       top: 275px;
+       background-color: white;
+       width: 800px;
+       margin: auto;
+       left: 0px;
+       right: 0px;
+       background-color: whitesmoke;
+       border-radius: 60px;
+}
+h5{
+    text-align: center;
+}
+.icon{
+    width: 39px;
+    margin: 5px;
+    cursor: pointer;
+}
+#bg-img
+{
+    height: 700px;
+}

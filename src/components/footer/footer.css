@@ -1,0 +1,11 @@
+h1{
+    border: solid red 3px;
+    color: red;
+    position: relative;
+    max-height: 1123px;
+}
+#footer{
+    position: relative;
+    min-height: 200px;
+    top: 222px;
+}

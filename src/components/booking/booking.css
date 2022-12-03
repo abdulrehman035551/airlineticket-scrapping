@@ -1,0 +1,154 @@
+#Booking-Form {
+    /* border: solid red 1px; */
+    display: inline-block;
+    
+    position: relative;
+    left: 528px;
+    top: 55px;
+}
+
+.frmSearch{
+    width: 323px;
+    /* border: 1px solid #a8d4b1;
+    background-color: #c6f7d0; */
+}
+
+#suggesstion-box1 ol li,#suggesstion-box2 ol li{
+    /* float: left; */
+    list-style: none;
+    margin-top: -3px;
+    padding: 0;
+    width: 190px;
+    position: relative
+}
+
+#suggesstion-box1 ol li{
+    padding: 10px;
+    /* background: #f0f0f0; */
+    border-bottom: #bbb9b9 1px solid;
+  position: relative;
+  /* height: 900px;
+  width: 200px; */
+  left: 80px;
+  color: blue;
+    border: solid black 1px;
+}
+#suggesstion-box2 ol li{
+    padding: 10px;
+    /* background: #f0f0f0; */
+    border-bottom: #bbb9b9 1px solid;
+  position: relative;
+  /* height: 900px;
+  width: 200px; */
+  left: 550px;
+  color: blue;
+    border: solid black 1px;
+}
+
+#suggesstion-box1 ol li:hover,#suggesstion-box2 ol li:hover {
+    background: #ece3d2;
+    cursor: pointer;
+}
+
+#search-box {
+    /* padding: 10px; */
+    border: #a8d4b1 1px solid;
+    border-radius: 4px;
+}
+#main-container{
+    
+    height: 500px;
+}
+   
+img{
+    width: 100%;
+}
+ 
+#search-form   {
+    /* border: solid red 3px; */
+    position: absolute;
+    top: 410px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    height: 315px;
+    border-radius: 12px;
+    opacity: 0.8;
+    }
+    #search-box1  {
+        border-radius: 0;
+        -webkit-appearance: none;
+        background-color: #fff;
+        border: 1px solid #9da6ab;
+        color: #36495a;
+        display: inline-block;
+        padding: 8px 9px 9px;
+        text-align: left;
+        font-size: 14px;
+        font-size: 1rem;
+        width: 36%;
+        font-family: Arial,sans-serif;
+        vertical-align: middle;
+        margin-left: 76px;
+        margin-top: 48px;
+
+    }
+    #search-box2{
+        border-radius: 0;
+        -webkit-appearance: none;
+        background-color: #fff;
+        border: 1px solid #9da6ab;
+        color: #36495a;
+        display: inline-block;
+        padding: 8px 9px 9px;
+        text-align: left;
+        font-size: 14px;
+        font-size: 1rem;
+        width: 100%;
+        font-family: Arial,sans-serif;
+        vertical-align: middle;
+        margin-bottom: 11px;
+        margin-left: 547px;
+        position: absolute;
+        width: 285px;
+         bottom: 169px;
+        
+       
+       
+    }
+    h3{
+        font-size: 1.75rem;
+    text-align: center;
+    font-family: inherit;
+    }
+    #date{
+        position: absolute;
+        left: 148px;
+        width: 190px;
+        top: 195px;
+        text-align: center;
+    }
+    button{
+        position: absolute;
+        right: 139px;
+        top: 199px;
+        width: 138px;
+        background-color: #0078d2;
+        font-family: Verdana,Arial,sans-serif;
+        color: white;
+    }
+    button:hover{
+        text-decoration: underline;
+        background-color: #136cb1;;
+    }
+#loadingimage{
+    position: absolute;
+    width: 100vw;
+    /* height: 100vw; */
+    z-index: 1000;
+    opacity: 0.4;
+}
+
